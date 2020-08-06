@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import aboutme from '../images/aboutme.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
@@ -28,29 +28,41 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">About Me</h2>
+         
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Hello developers and recruiters, 
+          </p>
+          <p>  
+            My name is Kynda Loyola and I am a junior fullstack developer.Here is a quick non-tech about me paragraph.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            If I did an ethnicity test the results would be scattered all around the world.I 
+            am know for my extreme diversity.I am an italian in short raised in a resort in egypt
+            which has a max internet speed of 9.1 Mb/s and an average speed of 2.36 Mb/s I have no 
+            idea how I became a developer.Fun fact I spent most of my time in egypt with horses. I 
+            am a professional horse rider, I started horse riding at the age of 3 and show jumping 
+            at the age of 7.I am a developer now so that skill went down the drain.Here is another
+            fun fact, I am the only tech freak in the family, I am the granddaughter of a very famous 
+            Jordanian artist <a href="https://en.wikipedia.org/wiki/Muhanna_Al-Dura">Mohanna Durra </a>
+            I am the daughter of an amazing woman who spends her life saving dogs and cats in Egypt 
+            and re-homing them all around the world.I guess you're all wondering why the "Hyperactive developer", 
+            well the answer is very simple I was diagnosed with ADHD a learning disability when I started university 
+            and ever since then my life started falling into place. To learn more about the advantages of 
+            ADHD<a href="https://www.healthline.com/health/adhd/benefits-of-adhd#1"> Click Here </a>.
+          </p>
+          <p>
+            I guess After you've read the non tech related paragraph you must be wondering how I ended up 
+            being a developer ? Well ladies and gentlemen here comes the answer: 
+          </p>
+          <p>
+          My incredible motor skills and my ADHD made me a very curious child.I Use to un-assemble
+          almost everything around the house and I started to develop a skill in fixing anything tech-related.
+          I became the family's technician specifically my grandfather's.I would spend most of my days fixing the
+          most random things from Tvs to toasters to phones.This passion lead me to my curiosity about 
+          how computers work and thats how I fell in love with the developer world.I started learning about 
+          the internet developed some HTML skills here and there and now I am a student at the University of Westminster
+          studying Computer Science Bsc Hons , with a predicted 1st class honors degree. 
           </p>
           {close}
         </article>
@@ -64,22 +76,9 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+           You can View my work on github <a href='https://github.com/thehyperactivedeveloper'>thehyperactivedeveloper</a>
           </p>
           {close}
         </article>
@@ -91,19 +90,16 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">What I can do</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+           My previous experiences are as follows:
           </p>
+          <ul>
+            <li>JAVA</li>
+          </ul>
           {close}
         </article>
 
