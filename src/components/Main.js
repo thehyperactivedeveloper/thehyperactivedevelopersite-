@@ -95,10 +95,10 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-           My previous experiences are as follows:
+           
           </p>
           <ul>
-            <li>JAVA</li>
+            <li></li>
           </ul>
           {close}
         </article>
