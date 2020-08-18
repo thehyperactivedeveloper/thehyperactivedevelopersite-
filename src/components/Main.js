@@ -31,38 +31,36 @@ class Main extends React.Component {
           <h2 className="major">About Me</h2>
          
           <p>
-            Hello developers and recruiters, 
+          You might be wondering why “The Hyperactive Developer”? 
           </p>
           <p>  
-            My name is Kynda Loyola and I am a junior fullstack developer.Here is a quick non-tech about me paragraph.
+          Attention. Deficit. Hyperactive. Disorder. Also known as (ADHD).
+
+          To some a disability, to me… a superpower. 
+
+          ADHD gives the impression that focusing is a near impossible task, however ironically, when it comes to areas of interest, hyper-focus for long periods of time is one of the main symptoms of ADHD.
+
+          Thus, my superpower
           </p>
           <p>
-            If I did an ethnicity test the results would be scattered all around the world.I 
-            am know for my extreme diversity.I am an italian in short raised in a resort in egypt
-            which has a max internet speed of 9.1 Mb/s and an average speed of 2.36 Mb/s I have no 
-            idea how I became a developer.Fun fact I spent most of my time in egypt with horses. I 
-            am a professional horse rider, I started horse riding at the age of 3 and show jumping 
-            at the age of 7.I am a developer now so that skill went down the drain.Here is another
-            fun fact, I am the only tech freak in the family, I am the granddaughter of a very famous 
-            Jordanian artist <a href="https://en.wikipedia.org/wiki/Muhanna_Al-Dura">Mohanna Durra </a>
-            I am the daughter of an amazing woman who spends her life saving dogs and cats in Egypt 
-            and re-homing them all around the world.I guess you're all wondering why the "Hyperactive developer", 
-            well the answer is very simple I was diagnosed with ADHD a learning disability when I started university 
-            and ever since then my life started falling into place. To learn more about the advantages of 
-            ADHD<a href="https://www.healthline.com/health/adhd/benefits-of-adhd#1"> Click Here </a>.
+          My passion towards technology and the inner-workings of machines began since my youth; disassembling household gadgets, fixing broken appliances, becoming the family’s technician…
+
+          This eventually directed my intuitive problem-solving skills to computers and coding, and I became infatuated with the developer world.
           </p>
           <p>
             I guess After you've read the non tech related paragraph you must be wondering how I ended up 
             being a developer ? Well ladies and gentlemen here comes the answer: 
           </p>
           <p>
-          My incredible motor skills and my ADHD made me a very curious child.I Use to un-assemble
-          almost everything around the house and I started to develop a skill in fixing anything tech-related.
-          I became the family's technician specifically my grandfather's.I would spend most of my days fixing the
-          most random things from Tvs to toasters to phones.This passion lead me to my curiosity about 
-          how computers work and thats how I fell in love with the developer world.I started learning about 
-          the internet developed some HTML skills here and there and now I am a student at the University of Westminster
-          studying Computer Science Bsc Hons , with a predicted 1st class honors degree. 
+          Now I am a student at the University of Westminster studying Bsc Computer Science, with a predicted 1st class honors degree.
+          </p>
+          <p>
+          This was an unpredictably unlikely outcome being an Italian expat growing up in desert 
+          Egypt where the average internet speed is 2.36 Mb/s. When I realized I wanted to become a developer, 
+          I left to pursue high school and eventually university, abroad to give myself better educational opportunities 
+          to start my career. Coming from a family of famous artists and animal rescuers with no background higher education 
+          I was the black robotic sheep of the family, but I am grateful my drive and determination was always greatly
+          supported to get me where I am today.
           </p>
           {close}
         </article>
