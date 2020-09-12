@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About Me</h2>
+          <h2 className="major">Introduction</h2>
          
           <p>
           You might be wondering why “The Hyperactive Developer”? 
@@ -88,15 +88,40 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">What I can do</h2>
+          <h2 className="major">Skills</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-           
+           FrontEnd:
           </p>
           <ul>
-            <li></li>
+            <li>HTML5 & CSS3</li>
+            <li>React.js</li>
+            <li>JavaScript ES6</li>
+          </ul>
+          <p>
+            BackEnd:
+          </p>
+          <ul>
+            <li>Java8</li>
+            <li>c# for Unity</li>
+            <li>node.js</li>
+            <li>Express</li>
+            <li>JSON</li>
+          </ul>
+          <p>Mobile development</p>
+          <ul>
+            <li>
+              Android mobile development Java
+            </li>
+            <li>React Native</li>
+          </ul>
+          <p>Databases</p>
+          <ul>
+            <li>MongoDB</li>
+            <li>SQLite</li>
+            <li>SQL</li>
           </ul>
           {close}
         </article>
