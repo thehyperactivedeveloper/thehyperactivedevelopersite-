@@ -89,38 +89,75 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Skills</h2>
-         
-          <p>
-           FrontEnd:
-          </p>
+          <h3>Soft Skills</h3>
           <ul>
-            <li>HTML5 & CSS3</li>
-            <li>React.js</li>
-            <li>JavaScript ES6</li>
+            <li>Experience in an Agile Environment</li>
+            <li>Writing Documentation for tools</li>
+            <li>Team collaboration and Pairing remotely</li>
           </ul>
-          <p>
-            BackEnd:
-          </p>
+
+          <h3>Technical Skills</h3>
           <ul>
-            <li>Java8</li>
-            <li>c# for Unity</li>
-            <li>node.js</li>
-            <li>Express</li>
-            <li>JSON</li>
-          </ul>
-          <p>Mobile development</p>
-          <ul>
-            <li>
-              Android mobile development Java
+            <li>Scala
+            <ul>
+              <li>Http4s web service</li>
+              <li>Cats and ZIO</li>
+            </ul>
             </li>
-            <li>React Native</li>
+            <li>Jenkins
+            <ul>
+              <li>Creating Jenkins Jobs</li>
+            </ul>
+            </li>
+            <li> Experience using AWS</li>
+            <li>Mobile APP development
+            <ul>
+              <li>React native</li>
+              <li>Android app development(Java)</li>
+            </ul>
+            </li>
+            <li>Java 8</li>
+
+            <li> Front End technologies/Frameworks
+              <ul>
+                <li>Gatsby React.js framework</li>
+                <li>React.js & Typescript</li>
+                <li>JavaScript ES6</li>
+              </ul>
+            </li>
           </ul>
-          <p>Databases</p>
-          <ul>
-            <li>MongoDB</li>
-            <li>SQLite</li>
-            <li>SQL</li>
-          </ul>
+         
+          {/*<p>*/}
+          {/* FrontEnd:*/}
+          {/*</p>*/}
+          {/*<ul>*/}
+          {/*  <li>HTML5 & CSS3</li>*/}
+          {/*  <li>React.js</li>*/}
+          {/*  <li>JavaScript ES6</li>*/}
+          {/*</ul>*/}
+          {/*<p>*/}
+          {/*  BackEnd:*/}
+          {/*</p>*/}
+          {/*<ul>*/}
+          {/*  <li>Java8</li>*/}
+          {/*  <li>c# for Unity</li>*/}
+          {/*  <li>node.js</li>*/}
+          {/*  <li>Express</li>*/}
+          {/*  <li>JSON</li>*/}
+          {/*</ul>*/}
+          {/*<p>Mobile development</p>*/}
+          {/*<ul>*/}
+          {/*  <li>*/}
+          {/*    Android mobile development Java*/}
+          {/*  </li>*/}
+          {/*  <li>React Native</li>*/}
+          {/*</ul>*/}
+          {/*<p>Databases</p>*/}
+          {/*<ul>*/}
+          {/*  <li>MongoDB</li>*/}
+          {/*  <li>SQLite</li>*/}
+          {/*  <li>SQL</li>*/}
+          {/*</ul>*/}
           {close}
         </article>
 
